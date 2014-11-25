@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<!DOCTYPE manuál [
+<!ENTITY program "SuperSoft 3.5">
+<!ENTITY kapitola1 SYSTEM "kap1.xml">
+]>
+<manuál>
+  <název>&program;</název>
+  <podtitulek>Uživatelská příručka</podtitulek>
+  &kapitola1;
+</manuál>

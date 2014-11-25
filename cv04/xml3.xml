@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE adresa [
+<!ENTITY writer "Writer: Donald Duck">
+]>
+<!-- HTML entita, nahrazuje znaky dále v dokumentu-->
+<!-- Opět za doctype napsat adresa-->
+<adresa>
+<ulice>Kodaňská 46, &writer; </ulice>
+<mesto>Praha</mesto>
+<psc>10100</psc>
+</adresa>

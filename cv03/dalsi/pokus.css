@@ -1,0 +1,49 @@
+/* Celý dokument bude na bílém pozadí, fontem Arial */
+clanek { background-color: white;
+         font-family: Arial, Verdana, Helvetica, sans-serif }
+
+/* Rozdìlení elementù na blokové a inline */
+zahlavi, nazev, autor, perex, para, rubrika { display: block }
+em { display: inline }
+
+/* Záhlaví èlánku */
+zahlavi { text-align: center;
+          padding: 10pt;
+          margin: 20pt; 
+          background-color: #C0D0F0;
+          border: 4pt outset navy }
+
+/* Rubrika je plovoucí objekt a je pøed ní doplnìn text */
+rubrika { float: right; 
+          color: red;
+          font-size: xx-small;
+          font-weight: bold;
+          font-style: italic;
+          white-space: nowrap }
+rubrika:before { content: "Rubrika: "; 
+                 color: black;
+                 font-weight: normal;
+                 font-style: normal }
+
+/* Název èlánku */
+nazev { font-size: 120%;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: blue;
+        margin: 20pt }
+
+/* Autor èlánku */
+autor { font-family: Palatino, Garamond, serif;
+        font-style: italic }
+
+/* Mezera mezi odstavci */
+para, perex { margin: 5pt 20pt }
+
+/* Perex je zvýraznìným písmem a s odlišnou úpravou první øádky */
+perex { font-style: italic;
+        font-weight: bold; }
+perex:first-letter { font-size: 200% }
+perex:first-line { text-transform: uppercase }
+
+/* Zvýraznìní textu */
+em { font-weight: bold }

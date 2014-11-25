@@ -1,0 +1,47 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=windows-1250">
+  <meta name="generator" content="PSPad editor, www.pspad.com">
+  <title>Map server - Interní klient</title>
+  </head>
+  <body>
+    <h1> Mapový server - test </h1>
+    <!-- formulář s mapou -->
+    <form name="mapserv" method="get" action="/cgi-bin/mapserv.exe" />
+    
+    <input type="hidden" name="map" value="[map]" />
+    <input type="hidden" name="imgext" value="[mapext]" />
+    <input type="hidden" name="imgxy" value="800 600" />  <!-- měl by odpovídat rozsahem mapfilu -->
+    
+    <!-- tabulka s mapou a formulářovými políčky -->
+    
+    <table border="1">
+    <tr><td colspan="2">
+    <input type="radio" name="zoomdir" value="1" [zoomdir_1_check] /> Zvětšení | <!-- to co je v těch hranatých závorkách je ??? -->
+    <input type="radio" name="zoomdir" value="0" [zoomdir_0_check] /> Posun |    <!-- volba těchto prvů není dogma, lze třeba pro faktor použít listbox -->
+    <input type="radio" name="zoomdir" value="-1" [zoomdir_-1_check] /> Zmenšení  |
+    
+    Zoom faktor&nbsp; <input type="text" name="zoomsize" size="1" value="1" /> | &nbsp;
+    
+    Map mode <select name="mode">
+    
+      <option value="browse" [browse_select]>Prohlížet téma</option>
+      <option value="query" [query_select]>Dotaz na 1 téma</option>
+      <option value="nquery" [nquery_select]>Dotaz na více témat</option>
+      </select>
+      </td></tr>
+      <tr><td>
+      <!-- TOC = seznam vrstev --> 
+      <input name="layer" value="silnice" type="checkbox" [silnice_check] />Silniční síť <br />
+      <input name="layer" value="lesy" type="checkbox" [lesy_check] />Lesní plochy <br />
+      <input name="layer" value="obce" type="checkbox" [obce_check] />Lesní plochy <br />
+      <input name="layer" value="lesy" type="checkbox" [lesy_check] />Lesní plochy <br />
+      <input name="layer" value="lesy" type="checkbox" [lesy_check] />Lesní plochy <br />
+      
+      
+      
+      
+    
+  </body>
+</html>

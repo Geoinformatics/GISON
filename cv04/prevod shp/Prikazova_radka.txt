@@ -1,0 +1,474 @@
+Microsoft Windows [Verze 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation. Všechna práva vyhrazena.
+
+C:\Users\kralto01>cd..
+
+C:\Users>cd..
+
+C:\>Program Files (x86)
+Program není názvem vnitøního ani vnìjšího pøíkazu,
+spustitelného programu nebo dávkového souboru.
+
+C:\>cd Program Files (x86)
+
+C:\Program Files (x86)>cd FWTools2.4.7
+
+C:\Program Files (x86)\FWTools2.4.7>dir
+ Svazek v jednotce C nemá žádnou jmenovku.
+ Sériové èíslo svazku je 9840-1C58.
+
+ Výpis adresáøe C:\Program Files (x86)\FWTools2.4.7
+
+22.10.2013  17:13    <DIR>          .
+22.10.2013  17:13    <DIR>          ..
+22.10.2013  17:12    <DIR>          bin
+22.10.2013  17:13    <DIR>          csharp
+22.10.2013  17:12    <DIR>          data
+22.10.2013  17:13    <DIR>          demo-data
+22.10.2013  17:13    <DIR>          html
+13.07.2005  03:50             3 774 icon.ico
+22.10.2013  17:13    <DIR>          include
+22.10.2013  17:13    <DIR>          lib
+22.10.2013  17:13               215 openev.bat
+22.10.2013  17:12    <DIR>          pics
+22.10.2013  17:12    <DIR>          proj_lib
+22.10.2013  17:12    <DIR>          pymod
+22.10.2013  17:13    <DIR>          python
+22.10.2013  17:13    <DIR>          ramps
+19.01.2010  19:00             2 088 ReadMe.txt
+22.10.2013  17:13                87 setfw.bat
+22.10.2013  17:13    <DIR>          tools
+22.10.2013  17:13            34 037 uninstall.exe
+22.10.2013  17:13    <DIR>          vb6
+22.10.2013  17:13    <DIR>          wms
+22.10.2013  17:13    <DIR>          xmlconfig
+           Souborù:      5,   Bajtù:                 40 201
+           Adresáøù:    18,   Volných bajtù: 102 305 734 656
+
+C:\Program Files (x86)\FWTools2.4.7>ReadMe.txt
+
+C:\Program Files (x86)\FWTools2.4.7>setfw.bat
+C:\Program Files (x86)\FWTools2.4.7>ogr2ogr
+Usage: ogr2ogr [--help-general] [-skipfailures] [-append] [-update] [-gt n]
+               [-select field_list] [-where restricted_where]
+               [-progress] [-sql <sql statement>] [-dialect dialect]
+               [-preserve_fid] [-fid FID]
+               [-spat xmin ymin xmax ymax] [-wrapdateline]
+               [-clipsrc [xmin ymin xmax ymax]|WKT|datasource|spat_extent]
+               [-clipsrcsql sql_statement] [-clipsrclayer layer]
+               [-clipsrcwhere expression]
+               [-clipdst [xmin ymin xmax ymax]|WKT|datasource]
+               [-clipdstsql sql_statement] [-clipdstlayer layer]
+               [-clipdstwhere expression]
+               [-a_srs srs_def] [-t_srs srs_def] [-s_srs srs_def]
+               [-f format_name] [-overwrite] [[-dsco NAME=VALUE] ...]
+               [-segmentize max_dist] [-fieldTypeToString All|(type1[,type2]*)]
+               dst_datasource_name src_datasource_name
+               [-lco NAME=VALUE] [-nln name] [-nlt type] [layer [layer ...]]
+
+ -f format_name: output file format name, possible values are:
+     -f "ESRI Shapefile"
+     -f "MapInfo File"
+     -f "TIGER"
+     -f "S57"
+     -f "DGN"
+     -f "Memory"
+     -f "BNA"
+     -f "CSV"
+     -f "GML"
+     -f "GPX"
+     -f "KML"
+     -f "GeoJSON"
+     -f "Interlis 1"
+     -f "Interlis 2"
+     -f "GMT"
+     -f "SQLite"
+     -f "ODBC"
+     -f "PostgreSQL"
+     -f "MySQL"
+     -f "DXF"
+     -f "Geoconcept"
+     -f "GeoRSS"
+     -f "GPSTrackMaker"
+ -append: Append to existing layer instead of creating new if it exists
+ -overwrite: delete the output layer and recreate it empty
+ -update: Open existing output datasource in update mode
+ -progress: Display progress on terminal. Only works if input layers have the
+                                          "fast feature count" capability
+ -select field_list: Comma-delimited list of fields from input layer to
+                     copy to the new layer (defaults to all)
+ -where restricted_where: Attribute query (like SQL WHERE)
+ -wrapdateline: split geometries crossing the dateline meridian
+                (long. = +/- 180deg)
+ -sql statement: Execute given SQL statement and save result.
+ -dialect value: select a dialect, usually OGRSQL to avoid native sql.
+ -skipfailures: skip features or layers that fail to convert
+ -gt n: group n features per transaction (default 200)
+ -spat xmin ymin xmax ymax: spatial query extents
+ -segmentize max_dist: maximum distance between 2 nodes.
+                       Used to create intermediate points
+ -dsco NAME=VALUE: Dataset creation option (format specific)
+ -lco  NAME=VALUE: Layer creation option (format specific)
+ -nln name: Assign an alternate name to the new layer
+ -nlt type: Force a geometry type for new layer.  One of NONE, GEOMETRY,
+      POINT, LINESTRING, POLYGON, GEOMETRYCOLLECTION, MULTIPOINT,
+      MULTIPOLYGON, or MULTILINESTRING.  Add "25D" for 3D layers.
+      Default is type of source layer.
+ -fieldTypeToString type1,...: Converts fields of specified types to
+      fields of type string in the new layer. Valid types are : Integer,
+      Real, String, Date, Time, DateTime, Binary, IntegerList, RealList,
+      StringList. Special value All will convert all fields to strings.
+ -a_srs srs_def: Assign an output SRS
+ -t_srs srs_def: Reproject/transform to this SRS on output
+ -s_srs srs_def: Override source SRS
+
+ Srs_def can be a full WKT definition (hard to escape properly),
+ or a well known definition (ie. EPSG:4326) or a file with a WKT
+ definition.
+
+C:\Program Files (x86)\FWTools2.4.7>
+C:\Program Files (x86)\FWTools2.4.7>ogr2ogr -f "GML" c:/temp/cr.gml F:\Geoinform
+atics\Mgr\Semestr 1\GISON\cv04\prevod shp\hranice_CR.Polygon.jtsk.shp
+FAILURE:
+Unable to open datasource `F:\Geoinformatics\Mgr\Semestr' with the following dri
+vers.
+  -> ESRI Shapefile
+  -> MapInfo File
+  -> UK .NTF
+  -> SDTS
+  -> TIGER
+  -> S57
+  -> DGN
+  -> VRT
+  -> REC
+  -> Memory
+  -> BNA
+  -> CSV
+  -> NAS
+  -> GML
+  -> GPX
+  -> KML
+  -> GeoJSON
+  -> Interlis 1
+  -> Interlis 2
+  -> GMT
+  -> SQLite
+  -> ODBC
+  -> PGeo
+  -> OGDI
+  -> PostgreSQL
+  -> MySQL
+  -> XPlane
+  -> AVCBin
+  -> AVCE00
+  -> DXF
+  -> Geoconcept
+  -> GeoRSS
+  -> GPSTrackMaker
+  -> VFK
+
+C:\Program Files (x86)\FWTools2.4.7>
+
+
+---------------------- HOTOVO ---------------------------
+
+           Souborù:      5,   Bajtù:                 40 201
+           Adresáøù:    18,   Volných bajtù: 102 305 734 656
+
+C:\Program Files (x86)\FWTools2.4.7>ReadMe.txt
+
+C:\Program Files (x86)\FWTools2.4.7>setfw.bat
+C:\Program Files (x86)\FWTools2.4.7>ogr2ogr
+Usage: ogr2ogr [--help-general] [-skipfailures] [-append] [-update] [-gt n]
+               [-select field_list] [-where restricted_where]
+               [-progress] [-sql <sql statement>] [-dialect dialect]
+               [-preserve_fid] [-fid FID]
+               [-spat xmin ymin xmax ymax] [-wrapdateline]
+               [-clipsrc [xmin ymin xmax ymax]|WKT|datasource|spat_extent]
+               [-clipsrcsql sql_statement] [-clipsrclayer layer]
+               [-clipsrcwhere expression]
+               [-clipdst [xmin ymin xmax ymax]|WKT|datasource]
+               [-clipdstsql sql_statement] [-clipdstlayer layer]
+               [-clipdstwhere expression]
+               [-a_srs srs_def] [-t_srs srs_def] [-s_srs srs_def]
+               [-f format_name] [-overwrite] [[-dsco NAME=VALUE] ...]
+               [-segmentize max_dist] [-fieldTypeToString All|(type1[,type2]*)]
+               dst_datasource_name src_datasource_name
+               [-lco NAME=VALUE] [-nln name] [-nlt type] [layer [layer ...]]
+
+ -f format_name: output file format name, possible values are:
+     -f "ESRI Shapefile"
+     -f "MapInfo File"
+     -f "TIGER"
+     -f "S57"
+     -f "DGN"
+     -f "Memory"
+     -f "BNA"
+     -f "CSV"
+     -f "GML"
+     -f "GPX"
+     -f "KML"
+     -f "GeoJSON"
+     -f "Interlis 1"
+     -f "Interlis 2"
+     -f "GMT"
+     -f "SQLite"
+     -f "ODBC"
+     -f "PostgreSQL"
+     -f "MySQL"
+     -f "DXF"
+     -f "Geoconcept"
+     -f "GeoRSS"
+     -f "GPSTrackMaker"
+ -append: Append to existing layer instead of creating new if it exists
+ -overwrite: delete the output layer and recreate it empty
+ -update: Open existing output datasource in update mode
+ -progress: Display progress on terminal. Only works if input layers have the
+                                          "fast feature count" capability
+ -select field_list: Comma-delimited list of fields from input layer to
+                     copy to the new layer (defaults to all)
+ -where restricted_where: Attribute query (like SQL WHERE)
+ -wrapdateline: split geometries crossing the dateline meridian
+                (long. = +/- 180deg)
+ -sql statement: Execute given SQL statement and save result.
+ -dialect value: select a dialect, usually OGRSQL to avoid native sql.
+ -skipfailures: skip features or layers that fail to convert
+ -gt n: group n features per transaction (default 200)
+ -spat xmin ymin xmax ymax: spatial query extents
+ -segmentize max_dist: maximum distance between 2 nodes.
+                       Used to create intermediate points
+ -dsco NAME=VALUE: Dataset creation option (format specific)
+ -lco  NAME=VALUE: Layer creation option (format specific)
+ -nln name: Assign an alternate name to the new layer
+ -nlt type: Force a geometry type for new layer.  One of NONE, GEOMETRY,
+      POINT, LINESTRING, POLYGON, GEOMETRYCOLLECTION, MULTIPOINT,
+      MULTIPOLYGON, or MULTILINESTRING.  Add "25D" for 3D layers.
+      Default is type of source layer.
+ -fieldTypeToString type1,...: Converts fields of specified types to
+      fields of type string in the new layer. Valid types are : Integer,
+      Real, String, Date, Time, DateTime, Binary, IntegerList, RealList,
+      StringList. Special value All will convert all fields to strings.
+ -a_srs srs_def: Assign an output SRS
+ -t_srs srs_def: Reproject/transform to this SRS on output
+ -s_srs srs_def: Override source SRS
+
+ Srs_def can be a full WKT definition (hard to escape properly),
+ or a well known definition (ie. EPSG:4326) or a file with a WKT
+ definition.
+
+C:\Program Files (x86)\FWTools2.4.7>
+C:\Program Files (x86)\FWTools2.4.7>ogr2ogr -f "GML" c:/temp/cr.gml F:\Geoinform
+atics\Mgr\Semestr 1\GISON\cv04\prevod shp\hranice_CR.Polygon.jtsk.shp
+FAILURE:
+Unable to open datasource `F:\Geoinformatics\Mgr\Semestr' with the following dri
+vers.
+  -> ESRI Shapefile
+  -> MapInfo File
+  -> UK .NTF
+  -> SDTS
+  -> TIGER
+  -> S57
+  -> DGN
+  -> VRT
+  -> REC
+  -> Memory
+  -> BNA
+  -> CSV
+  -> NAS
+  -> GML
+  -> GPX
+  -> KML
+  -> GeoJSON
+  -> Interlis 1
+  -> Interlis 2
+  -> GMT
+  -> SQLite
+  -> ODBC
+  -> PGeo
+  -> OGDI
+  -> PostgreSQL
+  -> MySQL
+  -> XPlane
+  -> AVCBin
+  -> AVCE00
+  -> DXF
+  -> Geoconcept
+  -> GeoRSS
+  -> GPSTrackMaker
+  -> VFK
+
+C:\Program Files (x86)\FWTools2.4.7>ogr2ogr -f "GML" c:/temp/cr.gml F:\Geoinform
+atics\Mgr\Semestr 1\GISON\cv04\prevod shp\hranice_CR.Polygon.jtsk.shp
+FAILURE:
+Unable to open datasource `F:\Geoinformatics\Mgr\Semestr' with the following dri
+vers.
+  -> ESRI Shapefile
+  -> MapInfo File
+  -> UK .NTF
+  -> SDTS
+  -> TIGER
+  -> S57
+  -> DGN
+  -> VRT
+  -> REC
+  -> Memory
+  -> BNA
+  -> CSV
+  -> NAS
+  -> GML
+  -> GPX
+  -> KML
+  -> GeoJSON
+  -> Interlis 1
+  -> Interlis 2
+  -> GMT
+  -> SQLite
+  -> ODBC
+  -> PGeo
+  -> OGDI
+  -> PostgreSQL
+  -> MySQL
+  -> XPlane
+  -> AVCBin
+  -> AVCE00
+  -> DXF
+  -> Geoconcept
+  -> GeoRSS
+  -> GPSTrackMaker
+  -> VFK
+
+C:\Program Files (x86)\FWTools2.4.7>ogr2ogr -f "GML" c:/temp/cr.gml "F:\Geoinfor
+matics\Mgr\Semestr 1\GISON\cv04\prevod shp\hranice_CR.Polygon.jtsk.shp"
+FAILURE:
+Unable to open datasource `F:\Geoinformatics\Mgr\Semestr 1\GISON\cv04\prevod shp
+\hranice_CR.Polygon.jtsk.shp' with the following drivers.
+  -> ESRI Shapefile
+  -> MapInfo File
+  -> UK .NTF
+  -> SDTS
+  -> TIGER
+  -> S57
+  -> DGN
+  -> VRT
+  -> REC
+  -> Memory
+  -> BNA
+  -> CSV
+  -> NAS
+  -> GML
+  -> GPX
+  -> KML
+  -> GeoJSON
+  -> Interlis 1
+  -> Interlis 2
+  -> GMT
+  -> SQLite
+  -> ODBC
+  -> PGeo
+  -> OGDI
+  -> PostgreSQL
+  -> MySQL
+  -> XPlane
+  -> AVCBin
+  -> AVCE00
+  -> DXF
+  -> Geoconcept
+  -> GeoRSS
+  -> GPSTrackMaker
+  -> VFK
+
+C:\Program Files (x86)\FWTools2.4.7>ogr2ogr -f "GML" "F:\Geoinformatics\Mgr\Seme
+str 1\GISON\cv04\prevod shpcr.gml" "F:\Geoinformatics\Mgr\Semestr 1\GISON\cv04\p
+revod shp\hranice_CR.Polygon.jtsk.shp"
+FAILURE:
+Unable to open datasource `F:\Geoinformatics\Mgr\Semestr 1\GISON\cv04\prevod shp
+\hranice_CR.Polygon.jtsk.shp' with the following drivers.
+  -> ESRI Shapefile
+  -> MapInfo File
+  -> UK .NTF
+  -> SDTS
+  -> TIGER
+  -> S57
+  -> DGN
+  -> VRT
+  -> REC
+  -> Memory
+  -> BNA
+  -> CSV
+  -> NAS
+  -> GML
+  -> GPX
+  -> KML
+  -> GeoJSON
+  -> Interlis 1
+  -> Interlis 2
+  -> GMT
+  -> SQLite
+  -> ODBC
+  -> PGeo
+  -> OGDI
+  -> PostgreSQL
+  -> MySQL
+  -> XPlane
+  -> AVCBin
+  -> AVCE00
+  -> DXF
+  -> Geoconcept
+  -> GeoRSS
+  -> GPSTrackMaker
+  -> VFK
+
+C:\Program Files (x86)\FWTools2.4.7>ogr2ogr -f "GML" "F:\Geoinformatics\Mgr\Seme
+str 1\GISON\cv04\prevod shpcr.gml" "F:\Geoinformatics\Mgr\Semestr 1\GISON\cv04\p
+revod shp\hranice_CR_Polygon_jtsk_shp"
+FAILURE:
+Unable to open datasource `F:\Geoinformatics\Mgr\Semestr 1\GISON\cv04\prevod shp
+\hranice_CR_Polygon_jtsk_shp' with the following drivers.
+  -> ESRI Shapefile
+  -> MapInfo File
+  -> UK .NTF
+  -> SDTS
+  -> TIGER
+  -> S57
+  -> DGN
+  -> VRT
+  -> REC
+  -> Memory
+  -> BNA
+  -> CSV
+  -> NAS
+  -> GML
+  -> GPX
+  -> KML
+  -> GeoJSON
+  -> Interlis 1
+  -> Interlis 2
+  -> GMT
+  -> SQLite
+  -> ODBC
+  -> PGeo
+  -> OGDI
+  -> PostgreSQL
+  -> MySQL
+  -> XPlane
+  -> AVCBin
+  -> AVCE00
+  -> DXF
+  -> Geoconcept
+  -> GeoRSS
+  -> GPSTrackMaker
+  -> VFK
+
+C:\Program Files (x86)\FWTools2.4.7>ogr2ogr -f "GML" "F:\Geoinformatics\Mgr\Seme
+str 1\GISON\cv04\prevod shpcr.gml" "F:\Geoinformatics\Mgr\Semestr 1\GISON\cv04\p
+revod shp\hranice_CR_Polygon_jtsk.shp"
+
+C:\Program Files (x86)\FWTools2.4.7>ogr2ogr -f "GML" "F:\Geoinformatics\Mgr\Seme
+str 1\GISON\cv04\prevod shpcr.gml" "F:\Geoinformatics\Mgr\Semestr 1\GISON\cv04\p
+revod shp\hranice_CR_Polygon_jtsk.shp"
+
+C:\Program Files (x86)\FWTools2.4.7>ogr2ogr -f "GML" "F:\Geoinformatics\Mgr\Seme
+str 1\GISON\cv04\prevod shp\cr.gml" "F:\Geoinformatics\Mgr\Semestr 1\GISON\cv04\
+prevod shp\hranice_CR_Polygon_jtsk.shp"
+
+C:\Program Files (x86)\FWTools2.4.7>

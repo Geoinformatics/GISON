@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE SYSTEM rozvrh.dtd>
+<rozvrh>
+  <predmet>
+    <nazev>GIS &amp; online </nazev>
+    <dotace>7 hodin</dotace>
+    <vyucujici>Pechanec</vyucujici>
+    <kredity>10 kreditů</kredity>
+  </predmet>
+  <predmet>
+    <nazev>Prostorové analýzy</nazev>
+    <dotace>8 hodin</dotace>
+    <vyucujici>Brus</vyucujici>
+    <kredity >10 kreditů</kredity>
+  </predmet>
+  <predmet>
+    <nazev>Data mining</nazev>
+    <dotace>7 hodin</dotace>
+    <vyucujici>Dvorský</vyucujici>
+    <kredity>10 kreditů</kredity>
+  </predmet>
+</rozvrh>

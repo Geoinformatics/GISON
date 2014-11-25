@@ -1,0 +1,5 @@
+<!ELEMENT adresa (ulice,mesto,psc)>
+<!ELEMENT ulice (PCDATA)>
+<!ELEMENT mesto (PCDATA)>
+<!ELEMENT psc (CDATA)>
+

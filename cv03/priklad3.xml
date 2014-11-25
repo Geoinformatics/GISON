@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1250"?>
+           <příklad>
+           <název>Ukázka fungování sekce CDATA</název>
+           <ukázka>
+           <![CDATA[ Element &lt;firma&gt; obsahuje text Kovář&amp;syn.
+           Platí následující zápis? 3&lt;5
+           ]]> 
+           </ukázka>
+                      <název>Ukázka nefungování sekce CDATA</název>
+           <ukázka>
+            Element &lt;firma&gt; obsahuje text Kovář&amp;syn.
+           Platí následující zápis? 3&lt;5
+           
+           </ukázka>
+           </příklad>

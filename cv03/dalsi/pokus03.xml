@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<!DOCTYPE manuál [
+<!ENTITY trade "<sup>TM</sup>">
+<!ENTITY test "TESTOVACI SLOVO">
+<!ENTITY program "<tučně>SuperSoft 3.5&trade;</tučně>">
+]>      <!-- definují se elementy, mohou se i vzájemně prolínat-->
+<manuál>
+  <název>&program;</název>
+  <podtitulek>Uživatelská příručka</podtitulek>
+  <kapitola>
+    <název>Úvod</název>
+    <para>&program; je nelepší aplikace ve své kategorii. Díky
+      programu &program; můžete snadno vařit, prát a dokonce i leštit
+      nábytek. Všechny funkce programu &program; se ovládají hlasovým
+      vstupem.&test;</para>
+    ...
+  </kapitola>
+</manuál>

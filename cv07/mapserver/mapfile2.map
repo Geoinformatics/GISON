@@ -1,0 +1,101 @@
+MAP 
+  NAME lutin # každý objekt je pojmenován
+   SIZE 800 600
+   EXTENT -565636.975 -1134653.275 -545637.024 -1114653.375
+   UNITS METERS #mapové jednotky
+   SHAPEPATH "C:/ms4w/Apache/htdocs/mapserver/data"
+   IMAGECOLOR -1 -1 -1 
+    IMAGETYPE PNG
+   FONTSET "c:/ms4w/apache/htdocs/mapserver/data/font.list"
+   #SYMBOLSET "c:/ms4w/apache/htdocs/mapserver/data/symbolset.sym"     #definuje to symboly, napø pro definovanou vektorovou grafiku
+  
+  PROJECTION 
+    "init=epsg:102067"
+  END  #Konec Projection, cesta k projection je v c:/ms4w/proj/nad/epsg, kdyby to tam nebylo ta se to musí dopsat :) 
+    
+ WEB 
+    TEMPLATE "c:/ms4w/Apache/htdocs/mapserver/tmpls/klient.html"   #šablona pro HTML stránku
+    
+    IMAGEPATH "c:/ms4w/Apache/htdocs/mapserver/temp/"   #adresáø, kam se budou ukládat obrázky
+    
+    IMAGEURL "http://localhost/mapserver/temp/"   #URL adresáøe s obrázky
+    
+    LOG mapserver.log
+    EMPTY "http://localhost/mapserver/tmpls/mimo.html"
+    
+ END  #Konec WEB
+ 
+ SCALEBAR
+ 
+  STATUS off
+    POSITION lr
+    STYLE 0
+    INTERVALS 4
+      LABEL 
+        COLOR 0 0 0 
+        SIZE SMALL
+      END   #Konec LABEL
+    SIZE 250 3
+  TRANSPARENT ON
+  COLOR 255 255 255
+  IMAGECOLOR 255 255 255
+  OUTLINECOLOR 100 100 100
+  BACKGROUNDCOLOR 0 0 0
+  UNITS METERS
+
+  END  #Konec SCALEBAR 
+  
+  LEGEND
+  
+   STATUS ON
+   TEMPLATE "c:/ms4w/Apache/htdocs/mapserver/tmpls/legenda.html"
+   
+  END  #Konec LEGEND, složitìjší zápis, není to jen obrázek ale je dynamická
+  
+  LAYER #Zaèátek vrstvy
+    NAME klad10  #musí se shodovat s názvem v klient.hmtl 
+    DATA KLZM10_clip  #cesta se píše od adresáøe definovaného v SHAPEPATHu + udává se název SHP souboru + POZOR, case sensitive!
+    TYPE POLYGON 
+    STATUS ON
+    TOLERANCE 30
+    TOLERANCEUNITS pixels
+    
+    PROJECTION 
+      "init=epsg:102067"
+    END 
+    
+    CLASS #Zaèátek tøídy, tj. definice vzhledová
+      NAME 'Klad'
+        TEMPLATE "c:/ms4w/Apache/htdocs/mapserver/tmpls/q_klad.html"
+        STYLE #Jak bude tøída vypadat
+          OUTLINECOLOR 0 0 0 
+          COLOR -1 -1 -1 #Prùhledná barva
+        END #Konec stylu
+      END #Konec tøíd
+    END #Konec vrstvy
+    
+    
+  LAYER #Zaèátek vrstvy
+    NAME obce  #musí se shodovat s názvem v klient.hmtl 
+    DATA obceORP_clip  #cesta se píše od adresáøe definovaného v SHAPEPATHu + udává se název SHP souboru + POZOR, case sensitive!
+    TYPE POLYGON 
+    STATUS default
+    
+    PROJECTION 
+      "init=epsg:102067"
+    END 
+    
+    CLASS #Zaèátek tøídy, tj. definice vzhledová
+      NAME 'NAZEV_ENG'
+        STYLE #Jak bude tøída vypadat
+          OUTLINECOLOR 104 104 104 
+          COLOR 255 202 186 
+        END #Konec stylu
+      END #Konec tøíd
+    END #Konec vrstvy
+      
+  
+  
+ 
+ 
+END    # konec mapfilu

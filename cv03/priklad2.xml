@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<osoba>
+  <jméno>Novák Petr</jméno>
+  <adresa>
+    <ulice číslo="1">Nová</ulice>
+    <město>Lhota</město>
+  </adresa>
+  <kontakt>
+   <!--> <telefon>123456789</telefon>
+    <e-mail>petr@novak.cz</e-mail>
+    <mobil>999999999</mobil>  -->
+  </kontakt>
+  <jméno>Franta Pepa</jméno>
+  <adresa>
+    <ulice číslo="2">Stará</ulice>
+    <město>Bota</město>
+  </adresa>
+  <kontakt>
+    <telefon>987654321</telefon>
+    <e-mail>petr@novak.cz</e-mail>
+    <mobil>111111111</mobil>
+  </kontakt>
+</osoba>

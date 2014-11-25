@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE adresa SYSTEM "xml2.dtd">
+<!DOCTYPE note [
+<!ENTITY writer "Writer: Donald Duck">
+]>
+<!-- Do root elementu se musí dát ta nejvyšší hierarchická hodnota v celém XML-->
+<!-- za system se do úvozovek píše cesta k DTD souboru-->
+<adresa>
+<ulice>Kodaňská 46, &writer; </ulice>
+<mesto>Praha</mesto>
+<psc>10100</psc>
+</adresa>

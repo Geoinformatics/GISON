@@ -1,0 +1,17 @@
+Tue Nov 25 14:58:19 2014,2320,127.0.0.1,lutin,0,-568975.830969 -1134653.275000 -542298.168031 -1114653.375000,-1.000000 -1.000000,lesy silnice ,isValidTemplate(): Web application error. Missing magic string, c:/ms4w/Apache/htdocs/mapserver/tmpls/klient.html doesn't look like a MapServer template. <br>
+
+Tue Nov 25 15:04:16 2014,1548,127.0.0.1,lutin,0,-568975.830969 -1134653.275000 -542298.168031 -1114653.375000,-1.000000 -1.000000,lesy silnice ,isValidTemplate(): Web application error. Missing magic string, c:/ms4w/Apache/htdocs/mapserver/tmpls/klient.html doesn't look like a MapServer template. <br>
+
+Tue Nov 25 15:04:17 2014,2880,127.0.0.1,lutin,0,-568975.830969 -1134653.275000 -542298.168031 -1114653.375000,-1.000000 -1.000000,lesy silnice ,isValidTemplate(): Web application error. Missing magic string, c:/ms4w/Apache/htdocs/mapserver/tmpls/klient.html doesn't look like a MapServer template. <br>
+
+Tue Nov 25 15:04:32 2014,3064,127.0.0.1,lutin,0,-568975.830969 -1134653.275000 -542298.168031 -1114653.375000,-1.000000 -1.000000,lesy silnice ,isValidTemplate(): Web application error. Missing magic string, c:/ms4w/Apache/htdocs/mapserver/tmpls/klient.html doesn't look like a MapServer template. <br>
+
+Tue Nov 25 15:04:48 2014,3824,127.0.0.1,lutin,0,-568975.830969 -1134653.275000 -542298.168031 -1114653.375000,-1.000000 -1.000000,lesy silnice ,normal execution
+Tue Nov 25 15:04:55 2014,3496,127.0.0.1,lutin,0,-555603.610685 -1144686.613815 -528925.947747 -1124686.713815,-542264.779216 -1134686.663815,  ,normal execution
+Tue Nov 25 15:04:57 2014,1376,127.0.0.1,lutin,0,-558324.799082 -1145938.694366 -531647.136144 -1125938.794366,-544985.967613 -1135938.744366,  ,normal execution
+Tue Nov 25 15:04:58 2014,3368,127.0.0.1,lutin,0,-544952.578798 -1155972.033181 -518274.915860 -1135972.133181,-531613.747329 -1145972.083181,  ,normal execution
+Tue Nov 25 15:05:01 2014,3332,127.0.0.1,lutin,0,-531580.358514 -1166005.371996 -504902.695576 -1146005.471996,-518241.527045 -1156005.421996,  ,normal execution
+Tue Nov 25 15:05:02 2014,1940,127.0.0.1,lutin,0,-531580.358514 -1166005.371996 -504902.695576 -1146005.471996,-518241.527045 -1156005.421996,  ,normal execution
+Tue Nov 25 15:05:19 2014,1804,127.0.0.1,lutin,0,-555603.610685 -1144686.613815 -528925.947747 -1124686.713815,-542264.779216 -1134686.663815,obce   ,normal execution
+Tue Nov 25 15:05:31 2014,2904,127.0.0.1,lutin,0,-565636.975000 -1134653.275000 -545637.024000 -1114653.375000,-1.000000 -1.000000,,loadForm(): Web application error. Invalid zoom size. <br>
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<rozvrh>
+  <predmet>
+    <nazev>GIS &amp; online </nazev>
+    <dotace pocet="7">7 hodin</dotace>  <!-- Ten počet by tam neměl být-->
+    <vyucujici>Pechanec</vyucujici>
+    <kredity pocet="10">10 kreditů</kredity>
+  </predmet>
+  <predmet>
+    <nazev>Prostorové analýzy</nazev>
+    <dotace pocet="8">8 hodin</dotace>
+    <vyucujici>Brus</vyucujici>
+    <kredity pocet="10">10 kreditů</kredity>
+  </predmet>
+  <predmet>
+    <nazev>Data mining</nazev>
+    <dotace pocet="7">7 hodin</dotace>
+    <vyucujici>Dvorský</vyucujici>
+    <kredity pocet="10">10 kreditů</kredity>
+  </predmet>
+</rozvrh>

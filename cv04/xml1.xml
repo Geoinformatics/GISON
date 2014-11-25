@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<osoba>
+<jmeno>Novak Petr</jmeno>
+<adresa>
+<ulice cislo="1">Nova</ulice>
+<mesto>Lhota&amp;</mesto> 
+<!--Mimo CDATA se znaky správně převedou-->
+</adresa>
+<kontakt>
+<telefon>123456789</telefon>
+<e-mail>petr@novak</e-mail>
+<test><![CDATA[Element &amp; &apos; &gt; &lt;&quot; ]]> </test><!-- To co je v CDATA se vypisuje jako text -->
+</kontakt>
+</osoba>
