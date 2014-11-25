@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="prezence.xslt"?>
+<kurs nazev="xml" datum="2011-06-28" lektor="Petr Krulík">
+	<student jmeno="Irena" prijmeni="Konfrstova"/>
+	<student jmeno="Jozef" prijmeni="Kukucka"/>
+	<!-- SK -->
+	<student jmeno="Petra" prijmeni="Lecchiova"/>
+	<student jmeno="Jiri" prijmeni="Matyasek"/>
+	<student jmeno="Dana" prijmeni="Mrakotova"/>
+	<student jmeno="Vilem" prijmeni="Pechanec"/>
+	<student jmeno="Pavel" prijmeni="Perman"/>
+	<student jmeno="Jiri" prijmeni="Sterba"/>
+	<student jmeno="Pavel" prijmeni="Viktora"/>
+</kurs>
