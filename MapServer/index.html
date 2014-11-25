@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=windows-1250">
+  <meta name="generator" content="PSPad editor, www.pspad.com">
+  <title>Moje mapa</title>
+  </head>
+  <body>
+  <!-- Základní činnost formuláře -->
+    <form name="mapserv" method="get" action="/cgi-bin/mapserv.exe">
+  <!-- Skryté proměnné -->  
+    <input type="hidden" name="map" value="C:/ms4w/apache/htdocs/mapserver/mapfile2.map">     <!-- Absolutní cesta k mapfilu -->
+    <input type="hidden" name="program" value="/cgi-bin/mapserv.exe">
+    <input type="hidden" name="zoomsize" value="1">
+    <input type="hidden" name="zoomdir" value="0">
+    <input type="hidden" name="mode" value="browse">
+    
+    <!-- Vrstvy, které mají být zapnuty mimo defaultní vrstvy. Pozor na velikost písma v názvu, musí být jednotné! -->
+    
+    <input type="hidden" name="layer" value="lesy">
+    <input type="hidden" name="layer" value="silnice">
+    
+    <input type="submit" value="Spustit mapserver">
+    </form>
+  </body>
+</html>
