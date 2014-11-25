@@ -1,0 +1,5 @@
+XML - datová struktura #strukturovaný text
+XSD - struktura a definované podmíny (nejsou data, lze to opakovat), napø. struktura katastrální mapy #strukturovaný text
+DTD - slouží k vydefinování struktury, jednoduší ale nemá tolik možností (lze psát ideálnì rovnou do XML, ale i v DTD)
+XSL - umožòuje vizualizaci (barvy, rámeèy, ...), souèasnì uspoøádání dat (definice struktury uspoøádání) #mùže jich existovat více k jednomu XML (napø. prostý text, na web, ...) 
+XSL-T - pro fyzickou transformaci do jiného formátu -> jak se bude transformovat (pøíkazy VEM, OPAKUJ, PØIØAÏ, ...) 
