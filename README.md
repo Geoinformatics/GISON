@@ -1,3 +1,3 @@
 GISON
 =====
-git add Readme.txt
+Seznam cvičení a kompletní verze všech variant 
