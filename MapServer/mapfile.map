@@ -1,0 +1,35 @@
+MAP 
+  NAME voda # každý objekt je pojmenován
+  SIZE 800 600
+  EXTENT -565636.975 -1134653.275 -545637.024 -1114653.375
+  UNITS METERS #mapové jednotky
+  SHAPEPATH "C:\ms4w\Apache\htdocs\mapserver\data"
+  IMAGECOLOR -1 -1 -1 
+  IMAGETYPE PNG
+  
+  PROJECTION 
+    "init=epsg:102067"
+    END
+    
+    ################# 
+    # Definice jednotlivých datových zdrojů
+                                            
+# Vodstvo
+LAYER 
+  NAME voda
+  DATA voda_lin_clip
+  TYPE LINE
+  STATUS ON
+  PROJECTION 
+    "init=epsg:102067"    # Pozor, nemusí to fungovat na jiných PC, není tam EPSG 102067 nadefinován!!!
+    END
+    
+    CLASS #začátek třídy
+      NAME 'Vody_'
+        STYLE #jak bude třída vypadat
+          OUTLINECOLOR 128 128 128
+          COLOR 0 112 255
+          END   # Konec stylu
+        END   # Konec třídy
+END    # konec vrstvy
+END    # konec mapfilu
