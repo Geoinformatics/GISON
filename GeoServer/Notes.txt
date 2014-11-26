@@ -1,0 +1,5 @@
+GeoServer - jméno: admin a heslo: geoserver
+Souřadnicové systémy (kódy) najít na EPSG.IO 
+    - EPSG:5514 - hází error 
+    - EPSG:3042 - funkční ( http://epsg.io/3042 ) 
+Pro publikování -> Add store -> Přidá se SHP -> Layer Preview (pro zobrazení SHP) 
