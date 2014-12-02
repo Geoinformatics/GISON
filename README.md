@@ -1,3 +1,3 @@
 GISON
 =====
-Seznam cvičení a kompletní verze všech variant 
+Cvičení a příklady na zápočet z GISONu 
