@@ -10,8 +10,8 @@
   <body>   <h1>Mapa pro cvičení z GISON</h1>   
     <p>    Tady je mapa mého bydliště     
     </p>
-    <img src="./cr.png" alt="mapa bydliste" width="714" height="579"  usemap="#cr" style="border-style:none" />  
-    <map name="cr">  
+    <img src="./cr.png" alt="mapa bydliste" width="714" height="579"  usemap="#cr" style="border-style:none" />  <!-- důležitý atribut usemap, musí tam být hashtag -->
+    <map name="cr">   <!-- tady musí být stejný název jako v tom usemap (bez hashtagu) -->
       <area shape="rect" alt="Olomouc" coords="480,290,520,320" href="http://www.olomouc.cz/" target="_blank" />
       <area shape="circle" alt="Zlín" coords="565,411,25" href="http://zlin.cz/" target="_blank" />  
       <area shape="default" nohref="nohref" />  
