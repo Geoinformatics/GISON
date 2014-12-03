@@ -8,3 +8,7 @@ Server podrobnosti
     - Jede pod localhostem
     - Nainstalovany v Program Files X84
     - Nic se nenastavuje 
+    
+    !!!!QUESTION!!!!
+    
+Jak nastavit WMS, WFS nebo jiné služby? - stačí jako publikování jít přeš Layer preview?
