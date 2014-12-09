@@ -6,3 +6,7 @@ Cvičení 09
 
 *Geoprocessing* - GP služba - je to **nástroj** běžící a řízený serverem, který **vrací výsledek**
   - skládá se ze 4 kroků - Návrh, tvorba, publikování/sdílení, užívání 
+
+#### Geoprocessing tvorba - modelbuilder 
+
+
