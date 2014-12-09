@@ -8,4 +8,4 @@ Cvičení 09
   - skládá se ze 4 kroků - Návrh, tvorba, publikování/sdílení, užívání 
 
 #### Geoprocessing tvorba - ModelBuilder nebo Python 
-  - *tvorba WMS* -> nahrajem hillshade -> transparency -> publish as service -> nechám jen mapping -> opravím chyby a vypublikuju -> 
+  - *tvorba WMS* -> nahrajem hillshade -> transparency -> publish as service -> nechám jen mapping -> opravím chyby a vypublikuju -> pak to můžu přes adddata zpět nahrát (je to ale jen jako podladová mapa, nic s tím nejde dělat) 
