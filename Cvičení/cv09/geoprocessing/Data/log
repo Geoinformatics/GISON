@@ -1,0 +1,10 @@
+201412091310   0     1     0kralto01 D:\USERS\kralik\GISON\cv09\GEOPRO~1\Data\Stream.shp = STREAMSHAPE(C:\Users\kralto01\Documents\ArcGIS\Default.gdb\StreamO_Con_1,
+201412091402   0     1     0kralto01 D:\USERS\kralik\GISON\cv09\geoprocessing\Data\select = (D:\USERS\kralik\GISON\cv09\geoprocessing\ToolData\hillshade  *  C:\Users\kralto01\Documents\ArcGIS\Default.gdb\Reclass_Aspe1)
+201412091407   0     1     0kralto01 D:\USERS\kralik\GISON\cv09\geoprocessing\Data\visi = VISIBILITY(D:\USERS\kralik\GISON\cv09\geoprocessing\ToolData\hillshade,  po
+201412091407   0     1     0kralto01 D:\USERS\kralik\GISON\cv09\geoprocessing\Data\visi = VISIBILITY(D:\USERS\kralik\GISON\cv09\geoprocessing\ToolData\hillshade,  po
+201412091408   0     1     0kralto01 D:\USERS\kralik\GISON\cv09\geoprocessing\Data\visi = VISIBILITY(D:\USERS\kralik\GISON\cv09\geoprocessing\ToolData\hillshade,  po
+201412091409   0     1     0kralto01 D:\USERS\kralik\GISON\cv09\geoprocessing\Data\visi = VISIBILITY(D:\USERS\kralik\GISON\cv09\geoprocessing\ToolData\hillshade,  po
+201412091409   0     0     0kralto01 D:\USERS\kralik\GISON\cv09\geoprocessing\Data\visi = VISIBILITY(D:\USERS\kralik\GISON\cv09\geoprocessing\ToolData\hillshade,  po
+201412091409   0     0     0kralto01 D:\USERS\kralik\GISON\cv09\geoprocessing\Data\viditelny = (D:\USERS\kralik\GISON\cv09\geoprocessing\Data\visi  *  D:\USERS\kralik\GISON\cv09\geoprocessing\ToolData\hillshade)
+201412091415   0     1     0kralto01 D:\USERS\kralik\GISON\cv09\geoprocessing\Data\visi = VISIBILITY(D:\USERS\kralik\GISON\cv09\geoprocessing\ToolData\hillshade,  po
+201412091415   0     0     0kralto01 D:\USERS\kralik\GISON\cv09\geoprocessing\Data\viditelny1 = (D:\USERS\kralik\GISON\cv09\geoprocessing\Data\visi  *  D:\USERS\kralik\GISON\cv09\geoprocessing\ToolData\hillshade)
