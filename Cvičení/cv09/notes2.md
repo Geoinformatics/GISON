@@ -1,2 +1,0 @@
-Poznámky cvičení 9
-===
