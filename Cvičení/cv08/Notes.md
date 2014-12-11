@@ -1,8 +1,8 @@
------------------------- MAPSERVER MINESOTA ---------------------------------
+------------------------ *MAPSERVER MINESOTA* ---------------------------------
 
 Map server ve finální podobì, vše funkèní
 
------------------------- ARCGIS PUBLISH -------------------------------
+------------------------ *ARCGIS PUBLISH* -------------------------------
 
 Publikování z arcgis desktop 
 
@@ -14,14 +14,17 @@ Publikování z arcgis desktop
 		- KML - nic moc se nenastavuje
 
 
------------ GAIA -----------
+----------- *GAIA* -----------
 
 WMS - když se vkládá tak se musí **zkrátit** odkaz! 
 	- http://virtus.upol.cz:6080/arcgis/services/student/wms_kralik/MapServer/WMSServer?
+	- Verze WMS - 
 
 
------------- JAN MAP ----------------
+------------ *JAN MAP* ----------------
+
 WMS - Dává se celý odkaz
 
------ ArcGIS Publish = editace -----
+----- *ArcGIS Publish* = editace -----
+
 Share as - > overite -> edituju znova ten stejný server 
