@@ -18,7 +18,8 @@ Publikování z arcgis desktop
 
 WMS - když se vkládá tak se musí **zkrátit** odkaz! 
 	- http://virtus.upol.cz:6080/arcgis/services/student/wms_kralik/MapServer/WMSServer?
-	- Verze WMS - 
+	
+	- Verze WMS - 1.1.1
 
 
 ------------ *JAN MAP* ----------------
